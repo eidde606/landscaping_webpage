@@ -1,15 +1,19 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
-import LogoImg from "../../assets/images/logo.png";
+import React from "react";
+import { Link } from "react-router-dom";
+import LandPic from "../../assets/images/breadcrumb/landpic.jpg";
 
 const Logo = () => {
-    return (
-        <div className="logo">
-            <Link to="/">
-                <img src={LogoImg} alt="Logo" />
-            </Link>
-        </div>
-    )
-}
+  return (
+    <div className="logo">
+      <Link to="/">
+        <img
+          src={LandPic}
+          alt="Logo"
+          style={{ width: "100px", height: "auto" }}
+        />
+      </Link>
+    </div>
+  );
+};
 
 export default Logo;
