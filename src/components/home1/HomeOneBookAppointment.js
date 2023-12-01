@@ -36,7 +36,8 @@ const HomeOneBookAppointment = () => {
                     </div>
                   </div>
                   <a href="/" className="l-btn quote-btn">
-                    Send Your Query <FaArrowRight />
+                    Send
+                    <FaArrowRight />
                   </a>
                 </form>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaClock, FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const HeaderTop = () => {
   return (
@@ -15,11 +15,11 @@ const HeaderTop = () => {
             <div className="header-info">
               <ul>
                 <li>
-                  <FaPhoneAlt /> Call on :<a href="/"> (+021) 157 489</a>
+                  <FaPhoneAlt /> Call on :<a href="/"> 804-217-2291</a>
                 </li>
-                <li>
+                {/* <li>
                   <FaClock /> Open Hours : Mon-Fri 08:00 - 15:00
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
