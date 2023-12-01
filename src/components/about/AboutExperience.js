@@ -44,7 +44,7 @@ const AboutExperience = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="section-title text-center mb-70">
-                <span>We Have 20 Years of Experience</span>
+                {/* <span>We Have 20 Years of Experience</span> */}
                 <h2>
                   We Give Awesome Landscape <br /> Gardening Services
                 </h2>
@@ -66,9 +66,9 @@ const AboutExperience = () => {
             <div className="col-xl-6 col-lg-6 col-lg-6 pl-85 pr-0">
               <div className="experience-img">
                 <img src={AboutExperienceImg1} alt="" />
-                <div className="experience-small-block">
+                {/* <div className="experience-small-block">
                   <h5>We are Since 2000 ! Over 200 Awards </h5>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

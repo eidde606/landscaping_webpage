@@ -5,7 +5,6 @@ import HeaderTop from "../common/header/HeaderTop";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
 import ContactForm from "../components/contact/ContactForm";
 import ContactMap from "../components/contact/ContactMap";
-import Subscribe from "../components/subscribe/Subscribe";
 
 const Contact = () => {
   return (
@@ -20,7 +19,6 @@ const Contact = () => {
       />
       <ContactForm />
       <ContactMap />
-      <Subscribe />
     </>
   );
 };

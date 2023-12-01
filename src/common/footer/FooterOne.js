@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  FaAngleDoubleRight,
   FaFacebookF,
   FaInstagram,
   FaPhoneAlt,
@@ -33,20 +32,20 @@ const FooterOne = () => {
                   </div>
                   <div className="footer-info">
                     <Link to="/">
-                      <FaPhoneAlt /> (111) 0909 8787 666
+                      <FaPhoneAlt /> 804-217-2291
                     </Link>
                   </div>
-                  <div className="footer-text">
+                  {/* <div className="footer-text">
                     <p>
                       House #253, 3rd Floor, Uposhohor 6202, Rajshahi,
                       Bangladesh
                     </p>
-                  </div>
-                  <div className="footer-info">
+                  </div> */}
+                  {/* <div className="footer-info">
                     <Link to="/">
                       <FaPhoneAlt /> Get Directions
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
               <div className="col-xl-2 col-lg-2 col-md-6 col-sm-12">
@@ -57,65 +56,32 @@ const FooterOne = () => {
                   <div className="footer-menu">
                     <ul>
                       <li>
-                        <Link to="/">Contact Us</Link>
+                        <Link to="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <Link to="/">Our Services</Link>
+                        <Link to="/service-one">Our Services</Link>
                       </li>
+
                       <li>
-                        <Link to="/">Our Project</Link>
-                      </li>
-                      <li>
-                        <Link to="/">About Company</Link>
-                      </li>
-                      <li>
-                        <Link to="/">News Update</Link>
+                        <Link to="/about">About Company</Link>
                       </li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-xl-2 col-lg-2 col-md-6 col-sm-12">
-                <div className="footer-widget-3">
-                  <div className="footer-title">
-                    <h4>Our Services</h4>
-                  </div>
-                  <div className="footer-menu">
-                    <ul>
-                      <li>
-                        <Link to="/">Landscaping</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Plant Growing</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Branch Cutting</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Flower Scaping</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Tree Planting</Link>
-                      </li>
-                      <li>
-                        <Link to="/">Rubbish Removal</Link>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
+
               <div className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
                 <div className="footer-widget-4">
-                  <div className="footer-title">
+                  {/* <div className="footer-title">
                     <h4>Newsletter</h4>
-                  </div>
-                  <div className="footer-text">
+                  </div> */}
+                  {/* <div className="footer-text">
                     <p>
                       Established since 2000. Mission Eland Landscaping Company
                       in US.
                     </p>
-                  </div>
-                  <div className="footer-social mt-35">
+                  </div> */}
+                  <div className="footer-social mt-10">
                     <h5>Folllow Us:</h5>
                     <ul>
                       <li>
@@ -140,12 +106,12 @@ const FooterOne = () => {
                       </li>
                     </ul>
                   </div>
-                  <div className="footer-newsletter mt-40">
+                  {/* <div className="footer-newsletter mt-40">
                     <input type="text" placeholder="Email Address" />
                     <button>
                       <FaAngleDoubleRight />
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -158,7 +124,11 @@ const FooterOne = () => {
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div className="copyright">
                   <p>
-                    © 2022 <Link to="/">Landi</Link>. All right reserved.
+                    © 2022{" "}
+                    <Link to="/">
+                      Andrey's Pro Landscaping & Tree Service, LLC
+                    </Link>
+                    . All rights reserved.
                   </p>
                 </div>
               </div>
@@ -166,11 +136,13 @@ const FooterOne = () => {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <Link to="/">About Landi</Link>
+                      <Link to="/">
+                        About Andrey's Pro Landscaping & Tree Service
+                      </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link to="/">Careers</Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link to="/">Privacy Policy</Link>
                     </li>

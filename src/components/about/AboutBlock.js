@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import AboutBlockImg3 from "../../assets/images/about/about-author-avatar.jpg";
 import AboutBlockImg1 from "../../assets/images/about/about-large.jpg";
 import AboutBlockImg2 from "../../assets/images/about/about-small.jpg";
@@ -27,7 +26,7 @@ const AboutBlock = () => {
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="about-text-wrapper">
                 <div className="section-title mr-100 mb-40">
-                  <span>About Landi</span>
+                  <span> About Andrey's Pro Landscaping & Tree Service</span>
                   <h2 className="mb-30">
                     We Have 20 Years of Experience in Garden Landscape Service
                   </h2>
@@ -39,16 +38,16 @@ const AboutBlock = () => {
                   </p>
                 </div>
                 <div className="row">
-                  <div className="col-xl-5 col-lg-12">
+                  {/* <div className="col-xl-5 col-lg-12">
                     <Link to="/" className="l-btn">
                       Read More
                     </Link>
-                  </div>
+                  </div> */}
                   <div className="col-xl-7 col-lg-12">
                     <div className="about-author-avatar-wrapper d-flex align-items-center">
                       <img src={AboutBlockImg3} alt="" />
                       <div className="about-author-avatar-content">
-                        <h5>Nicolas Jurgan</h5>
+                        <h5>Andrey</h5>
                         <span>Founder Landscape</span>
                       </div>
                     </div>
