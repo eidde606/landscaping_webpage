@@ -6,8 +6,6 @@ import HeaderTop from "../common/header/HeaderTop";
 import AboutBlock from "../components/about/AboutBlock";
 import AboutExperience from "../components/about/AboutExperience";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import CtaTwo from "../components/cta/CtaTwo";
-import HowItWorkOne from "../components/how-it-work/HowItWorkOne";
 
 const About = () => {
   return (
@@ -22,8 +20,6 @@ const About = () => {
       />
       <AboutExperience />
       <AboutBlock />
-      <CtaTwo />
-      <HowItWorkOne />
       <FooterOne />
     </>
   );

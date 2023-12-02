@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import WhyChooseUsBg from "../../assets/images/why-choose-us/bg-1.jpg";
+import Job from "../../assets/images/job.jpg";
 import Icon_Equipment from "../../assets/images/why-choose-us/equipment.png";
 import Icon_Estimates from "../../assets/images/why-choose-us/estimates.png";
 import Icon_Irreigation from "../../assets/images/why-choose-us/irreigation.png";
@@ -61,8 +61,8 @@ const WhyChoseUsOne = () => {
       <div
         className="height-592 bg-property pt-110 pb-110"
         data-overlay="theme-1"
-        data-opacity="7"
-        style={{ backgroundImage: `url(${WhyChooseUsBg})` }}
+        data-opacity="1"
+        style={{ backgroundImage: `url(${Job})` }}
       >
         <div className="container">
           <div className="row position-relative">

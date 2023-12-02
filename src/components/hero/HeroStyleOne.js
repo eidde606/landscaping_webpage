@@ -17,7 +17,7 @@ const HeroStyleOne = () => {
       <div
         className="hero-area height-800 bg-property d-flex align-items-center"
         data-overlay="black"
-        data-opacity="8"
+        data-opacity="6"
         style={{ backgroundImage: `url(${Yard})` }}
       >
         <div className="container">

@@ -1,6 +1,6 @@
 import React from "react";
 import { FaChevronRight } from "react-icons/fa";
-import HomeOneServiceImg1 from "../../assets/images/service/2.jpg";
+import Lawn from "../../assets/images/lawn.jpg";
 
 const HomeOneService = () => {
   return (
@@ -8,7 +8,7 @@ const HomeOneService = () => {
       <div className="container">
         <div className="row">
           <div className="col-xl-6 col-lg-6 col-md-6">
-            <img src={HomeOneServiceImg1} alt="About Us" />
+            <img src={Lawn} alt="About Us" />
           </div>
           <div className="col-xl-6 col-lg-6 col-md-6 d-flex align-items-center pl-70">
             <div className="service-bullet-wrapper">
