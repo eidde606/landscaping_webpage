@@ -11,28 +11,28 @@ const WhyChooseUsOneData = [
     id: uuidv4(),
     heading: "Free Estimates",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "A Free Estimate provides a cost free evaluation of your project's needs, offering insights and potential costs without any charge.",
     img: Icon_Estimates,
   },
   {
     id: uuidv4(),
     heading: "Modern Equipment",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "Modern Equipment denotes our state-of-the-art tools, optimized for efficiency, precision, and superior service delivery.",
     img: Icon_Equipment,
   },
   {
     id: uuidv4(),
     heading: "Quality Work",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "Our work embodies excellence, driven by meticulous attention to detail, expertise, and unwavering commitment to quality.",
     img: Icon_Work,
   },
   {
     id: uuidv4(),
     heading: "Watering & Irrigation",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "Our meticulous watering and irrigation methods promise vibrant landscapes, ensuring sustained growth and flourishing beauty.",
     img: Icon_Irreigation,
   },
 ];

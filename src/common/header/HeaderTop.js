@@ -26,7 +26,6 @@ const HeaderTop = () => {
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <div className="header-social text-center text-xl-end text-lg-end">
               <a href="facebook.com">Facebook</a>
-              <a href="facebook.com">Twitter</a>
               <a href="instagram.com">Instagram</a>
             </div>
           </div>

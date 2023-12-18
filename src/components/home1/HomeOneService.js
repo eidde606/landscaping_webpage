@@ -44,6 +44,18 @@ const HomeOneService = () => {
                         <FaChevronRight />
                         Rubbish Removal
                       </li>
+                      <li>
+                        <FaChevronRight />
+                        Electric Conduit
+                      </li>
+                      <li>
+                        <FaChevronRight />
+                        Gutter Cleaning
+                      </li>
+                      <li>
+                        <FaChevronRight />
+                        And more
+                      </li>
                     </ul>
                   </div>
                 </div>

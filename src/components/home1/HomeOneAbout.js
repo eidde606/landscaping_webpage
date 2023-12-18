@@ -13,7 +13,7 @@ const HomeOneAbout = () => {
                 <span>Our Services</span>
                 <h2>We Are Right Landscape And Gardening Experts Since 2000</h2>
               </div>
-              <Link href="/" className="l-btn">
+              <Link to="/contact" className="l-btn">
                 Appointment
               </Link>
             </div>
