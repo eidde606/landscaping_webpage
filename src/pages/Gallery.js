@@ -3,7 +3,6 @@ import breadcrumbBg from "../assets/images/breadcrumb/1.jpg";
 import HeaderBottomTwo from "../common/header/HeaderBottomTwo";
 import HeaderTop from "../common/header/HeaderTop";
 import Breadcrumb from "../components/breadcrumb/Breadcrumb";
-import CtaTwo from "../components/cta/CtaTwo";
 import ErrorBoundary from "../components/error/ErrorBoundary";
 import ProjectStyleFour from "../components/project/ProjectStyleFour";
 
@@ -20,7 +19,6 @@ const Gallery = () => {
           currentPage="Classic Gallery"
         />
         <ProjectStyleFour />
-        <CtaTwo />
       </>
     </ErrorBoundary>
   );

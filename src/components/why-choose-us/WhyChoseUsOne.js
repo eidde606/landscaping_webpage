@@ -1,6 +1,6 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import WhyChooseUsBg from "../../assets/images/why-choose-us/bg-1.jpg";
+import Job from "../../assets/images/job.jpg";
 import Icon_Equipment from "../../assets/images/why-choose-us/equipment.png";
 import Icon_Estimates from "../../assets/images/why-choose-us/estimates.png";
 import Icon_Irreigation from "../../assets/images/why-choose-us/irreigation.png";
@@ -11,28 +11,28 @@ const WhyChooseUsOneData = [
     id: uuidv4(),
     heading: "Free Estimates",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "A Free Estimate provides a cost free evaluation of your project's needs, offering insights and potential costs without any charge.",
     img: Icon_Estimates,
   },
   {
     id: uuidv4(),
     heading: "Modern Equipment",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "Modern Equipment denotes our state-of-the-art tools, optimized for efficiency, precision, and superior service delivery.",
     img: Icon_Equipment,
   },
   {
     id: uuidv4(),
     heading: "Quality Work",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "Our work embodies excellence, driven by meticulous attention to detail, expertise, and unwavering commitment to quality.",
     img: Icon_Work,
   },
   {
     id: uuidv4(),
     heading: "Watering & Irrigation",
     description:
-      "There are many variations of passages the majority have suffered alteration form",
+      "Our meticulous watering and irrigation methods promise vibrant landscapes, ensuring sustained growth and flourishing beauty.",
     img: Icon_Irreigation,
   },
 ];
@@ -61,8 +61,8 @@ const WhyChoseUsOne = () => {
       <div
         className="height-592 bg-property pt-110 pb-110"
         data-overlay="theme-1"
-        data-opacity="7"
-        style={{ backgroundImage: `url(${WhyChooseUsBg})` }}
+        data-opacity="1"
+        style={{ backgroundImage: `url(${Job})` }}
       >
         <div className="container">
           <div className="row position-relative">

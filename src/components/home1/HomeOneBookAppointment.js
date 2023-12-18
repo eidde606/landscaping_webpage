@@ -1,6 +1,6 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
-import HomeOneHeroImg1 from "../../assets/images/appointment.jpg";
+import Quote_pic from "../../assets/images/quotepic.jpg";
 
 const HomeOneBookAppointment = () => {
   return (
@@ -8,7 +8,7 @@ const HomeOneBookAppointment = () => {
       <div className="book-appointment" style={{ marginTop: "250px" }}>
         <div
           className="book-appointment-img bg-property"
-          style={{ backgroundImage: `url(${HomeOneHeroImg1})` }}
+          style={{ backgroundImage: `url(${Quote_pic})` }}
         ></div>
         <div className="container">
           <div className="row">
