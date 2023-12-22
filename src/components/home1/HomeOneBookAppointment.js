@@ -1,8 +1,34 @@
-import React from "react";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 import { FaArrowRight } from "react-icons/fa";
+import { contactConfig } from "../../ContactConfig";
 import Quote_pic from "../../assets/images/quotepic.jpg";
 
 const HomeOneBookAppointment = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        contactConfig.YOUR_SERVICE_ID,
+        contactConfig.YOUR_TEMPLATE_ID,
+
+        form.current,
+        contactConfig.YOUR_USER_ID
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+          e.target.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <>
       <div className="book-appointment" style={{ marginTop: "250px" }}>
@@ -20,25 +46,36 @@ const HomeOneBookAppointment = () => {
                     Get a Free Quote From <br /> Our Experts
                   </h2>
                 </div>
-                <form action="/">
+                <form ref={form} onSubmit={sendEmail}>
                   <div className="row">
                     <div className="col-xl-6">
-                      <input type="text" placeholder="Name" />
+                      <input type="text" placeholder="Name" name="user_name" />
                     </div>
                     <div className="col-xl-6">
-                      <input type="email" placeholder="Email" />
+                      <input
+                        type="email"
+                        placeholder="Email"
+                        name="user_email"
+                      />
                     </div>
                   </div>
                   <div className="row">
                     <div className="col-xl-12">
-                      <input type="text" placeholder="Phone" />
-                      <textarea placeholder="Write Message Here"></textarea>
+                      <input
+                        type="number"
+                        placeholder="Phone"
+                        name="user_phone"
+                      />
+                      <textarea
+                        placeholder="Write Message Here"
+                        name="message"
+                      ></textarea>
                     </div>
                   </div>
-                  <a href="/" className="l-btn quote-btn">
+                  <button className="l-btn quote-btn" type="submit">
                     Send
                     <FaArrowRight />
-                  </a>
+                  </button>
                 </form>
               </div>
             </div>
