@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import PhoneImgIcon from "../../assets/images/icon/phone.png";
 import Logo from "../../components/logo/Logo";
 import MobileMenu from "./MobileMenu";
 import Nav from "./Nav";
 
 const HeaderBottomTwo = () => {
+  const phoneNumber = "804-277-7725";
   return (
     <div id="sticky-header" className="header-bottom">
       <div className="container">
@@ -15,10 +15,10 @@ const HeaderBottomTwo = () => {
           </div>
           <div className="col-xl-10 col-lg-10 col-md-6">
             <div className="header-call-btn f-right">
-              <Link to="/">
+              <a href={`tel:${phoneNumber}`}>
                 <img src={PhoneImgIcon} alt="Phone Icon" />
-                804-217-2291
-              </Link>
+                804-277-7725
+              </a>
             </div>
             <Nav />
           </div>
