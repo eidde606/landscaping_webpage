@@ -15,7 +15,7 @@ const HeaderTop = () => {
             <div className="header-info">
               <ul>
                 <li>
-                  <FaPhoneAlt /> Call on :<a href="/"> 804-217-2291</a>
+                  <FaPhoneAlt /> Call on :<a href="/">804-277-7725</a>
                 </li>
                 {/* <li>
                   <FaClock /> Open Hours : Mon-Fri 08:00 - 15:00
@@ -25,8 +25,15 @@ const HeaderTop = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <div className="header-social text-center text-xl-end text-lg-end">
+develop
+              <a href="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB">
+                Facebook
+              </a>
+              {/* <a href="instagram.com">Instagram</a> */}
+=======
               <a href="facebook.com">Facebook</a>
               <a href="instagram.com">Instagram</a>
+ main
             </div>
           </div>
         </div>
