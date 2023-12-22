@@ -1,10 +1,8 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 import { FaArrowRight } from "react-icons/fa";
- develop
 import { contactConfig } from "../../ContactConfig";
-=======
- main
+
 import Quote_pic from "../../assets/images/quotepic.jpg";
 
 const HomeOneBookAppointment = () => {

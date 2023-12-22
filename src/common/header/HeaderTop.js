@@ -25,15 +25,10 @@ const HeaderTop = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <div className="header-social text-center text-xl-end text-lg-end">
-develop
               <a href="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB">
                 Facebook
               </a>
               {/* <a href="instagram.com">Instagram</a> */}
-=======
-              <a href="facebook.com">Facebook</a>
-              <a href="instagram.com">Instagram</a>
- main
             </div>
           </div>
         </div>
