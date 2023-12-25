@@ -8,6 +8,7 @@ import ScrollToTopRoute from "./components/scroll-to-top-route/ScrollToTopRoute"
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 // import Error from "./pages/Error";
+import PrivacyPolicy from "./common/footer/PrivacyPolicy";
 import Gallery from "./pages/Gallery";
 import HomeDefault from "./pages/HomeDefault";
 import Services from "./pages/Services";
@@ -33,6 +34,7 @@ function App() {
           <Route path="/services" exact element={<Services />} />
           <Route path="/gallery" exact element={<Gallery />} />
           <Route path="/contact" exact element={<Contact />} />
+          <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>
         <ScrollToTop
