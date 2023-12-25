@@ -1,6 +1,5 @@
 import React from "react";
 import { FaFacebookF, FaPhoneAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const HeaderTop = () => {
   return (
@@ -26,9 +25,9 @@ const HeaderTop = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <div className="header-social text-center text-xl-end text-lg-end">
-              <Link to="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB">
+              <a href="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB">
                 <FaFacebookF style={{ color: "skyblue" }} />
-              </Link>
+              </a>
 
               {/* <a href="instagram.com">Instagram</a> */}
             </div>
