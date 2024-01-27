@@ -11,7 +11,7 @@ const HeroStyleOne = () => {
         channel="youtube"
         autoplay
         isOpen={isOpen}
-        videoId="0O2aH4XLbto"
+        videoId="sV6-FYjYw5c"
         onClose={() => setOpen(false)}
       />
       <div

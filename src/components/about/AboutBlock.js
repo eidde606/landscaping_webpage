@@ -1,7 +1,7 @@
 import React from "react";
-import AboutBlockImg3 from "../../assets/images/about/about-author-avatar.jpg";
 import AboutBlockImg1 from "../../assets/images/about/about-large.jpg";
 import AboutBlockImg2 from "../../assets/images/about/about-small.jpg";
+import AndreyFace from "../../assets/images/andre.jpg";
 
 const AboutBlock = () => {
   return (
@@ -28,13 +28,21 @@ const AboutBlock = () => {
                 <div className="section-title mr-100 mb-40">
                   <span> About Andrey's Pro Landscaping & Tree Service</span>
                   <h2 className="mb-30">
-                    We Have 20 Years of Experience in Garden Landscape Service
+                    Cultivating Natural Beauty: Over 20 Years of Mastery in
+                    Landscaping and Tree Services
                   </h2>
                   <p>
-                    All the Lorem Ipsum generators on the Internet tend to
-                    repeat predefined chunks as necessary, making this the first
-                    true generator on the Internet. Combined with a handful of
-                    model sentence structures,
+                    Celebrating more than two decades of excellence, our
+                    landscaping and tree services have been a beacon of quality
+                    and innovation. We bring a wealth of experience to every
+                    project, ensuring your outdoor spaces thrive with lush
+                    greenery and well-maintained trees. Our seasoned
+                    professionals are dedicated to transforming landscapes into
+                    captivating and sustainable environments. From intricate
+                    tree care to imaginative landscape designs, we take pride in
+                    our commitment to enhancing the natural beauty of your
+                    surroundings. Partner with us to experience the difference
+                    that over 20 years of expertise can make for your property.
                   </p>
                 </div>
                 <div className="row">
@@ -45,7 +53,7 @@ const AboutBlock = () => {
                   </div> */}
                   <div className="col-xl-7 col-lg-12">
                     <div className="about-author-avatar-wrapper d-flex align-items-center">
-                      <img src={AboutBlockImg3} alt="" />
+                      <img src={AndreyFace} alt="" />
                       <div className="about-author-avatar-content">
                         <h5>Andrey</h5>
                         <span>Founder Landscape</span>

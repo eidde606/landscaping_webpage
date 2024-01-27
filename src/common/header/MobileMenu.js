@@ -20,12 +20,12 @@ const menuData = [
     path: "/services",
   },
 
-  {
-    title: "Gallery",
-    path: "/gallery",
+  // {
+  //   title: "Gallery",
+  //   path: "/gallery",
 
-    subNav: [],
-  },
+  //   subNav: [],
+  // },
 
   {
     title: "Contact",

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Job from "../../assets/images/job.jpg";
 import Work from "../../assets/images/work.jpg";
 
 const HomeOneAbout = () => {
@@ -21,7 +22,12 @@ const HomeOneAbout = () => {
           <div className="col-xl-6 col-lg-6 col-md-6">
             <div className="about-wrapper-style-1 mb-30">
               <img src={Work} alt="About Us" />
-              <img className="about-secondary" src={Work} alt="About Us" />
+              <img
+                className="about-secondary"
+                src={Job}
+                alt="About Us"
+                style={{ maxWidth: "100%", height: "auto", maxHeight: "400px" }}
+              />
             </div>
           </div>
         </div>

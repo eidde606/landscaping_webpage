@@ -1,27 +1,27 @@
 import React from "react";
 import { v4 as uuidv4 } from "uuid";
-import AboutExperienceImg1 from "../../assets/images/about/4.jpg";
+import LandPic from "../../assets/images/breadcrumb/landpic.jpg";
 
 const AboutExperienceData = [
   {
     id: uuidv4(),
     heading: "Mission",
     description:
-      "There are many variations of passages of Lorem Ipsum available, but the have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable.",
+      "Our mission is to enhance outdoor spaces with exceptional landscaping services, creating a harmonious blend of nature and design. We strive to exceed expectations, delivering quality and excellence in every project.",
   },
 
   {
     id: uuidv4(),
     heading: "Vision",
     description:
-      "It is a long established fact that a reader will be distracted by the content page when looking at its layout. The point of using Lorem Ipsum is that more-or-less normal distribution of letters,",
+      "Our vision is to be a leading force in the landscaping industry, setting new standards for creativity, sustainability, and customer satisfaction. We aim to transform ordinary spaces into extraordinary experiences.",
   },
 
   {
     id: uuidv4(),
     heading: "Goal",
     description:
-      "It is a long established fact that a reader will be distracted by the content page when looking at its layout. The point of using Lorem Ipsum is that more-or-less normal distribution of letters,",
+      "Our goal is to consistently innovate and elevate our services, ensuring the beauty and functionality of every landscape we touch. We aspire to cultivate lasting relationships with our clients through reliability and craftsmanship.",
   },
 ];
 
@@ -65,7 +65,7 @@ const AboutExperience = () => {
             </div>
             <div className="col-xl-6 col-lg-6 col-lg-6 pl-85 pr-0">
               <div className="experience-img">
-                <img src={AboutExperienceImg1} alt="" />
+                <img src={LandPic} alt="" />
                 {/* <div className="experience-small-block">
                   <h5>We are Since 2000 ! Over 200 Awards </h5>
                 </div> */}

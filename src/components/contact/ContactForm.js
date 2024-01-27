@@ -63,7 +63,7 @@ const ContactForm = () => {
                 <div className="contact-form pr-70">
                   <div className="section-title mb-40">
                     <span>Need Our Service Or Have Queries</span>
-                    <h2>Send Us Message.</h2>
+                    <h2>Send Us A Message.</h2>
                   </div>
                   <form action="/" ref={form} onSubmit={sendEmail}>
                     <input
