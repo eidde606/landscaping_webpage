@@ -15,7 +15,8 @@ const HeaderTop = () => {
             <div className="header-info">
               <ul>
                 <li>
-                  <FaPhoneAlt /> Call on :<a href="/">804-277-7725</a>
+                  <FaPhoneAlt /> Call on :
+                  <a href="tel: 804-277-7725">804-277-7725</a>
                 </li>
                 {/* <li>
                   <FaClock /> Open Hours : Mon-Fri 08:00 - 15:00

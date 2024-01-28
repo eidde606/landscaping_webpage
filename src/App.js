@@ -22,6 +22,7 @@ import "./assets/css/responsive.css";
 import "./assets/vendor/modal-video/modal-video.min.css";
 import "./assets/vendor/slick/slick.css";
 import ErrorBoundary from "./components/error/ErrorBoundary";
+import AndreyPolicy from "./pages/AndreyPolicy";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           {/* <Route path="/gallery" exact element={<Gallery />} /> */}
           <Route path="/contact" exact element={<Contact />} />
           <Route path="/privacy-policy" exact element={<PrivacyPolicy />} />
+          <Route path="/andrey-policy" exact element={<AndreyPolicy />} />
           {/* <Route path="*" element={<Error />} /> */}
         </Routes>
         <ScrollToTop

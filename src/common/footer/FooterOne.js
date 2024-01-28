@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaPhoneAlt,
-  FaPinterestP,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebookF, FaPhoneAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import FooterBG from "../../assets/images/footer-1.png";
 
@@ -31,9 +25,9 @@ const FooterOne = () => {
                     </p>
                   </div>
                   <div className="footer-info">
-                    <Link to="/">
-                      <FaPhoneAlt /> 804-217-2291
-                    </Link>
+                    <a href="tel: 804-277-7725">
+                      <FaPhoneAlt /> 804-277-7725
+                    </a>
                   </div>
                   {/* <div className="footer-text">
                     <p>
@@ -59,7 +53,7 @@ const FooterOne = () => {
                         <Link to="/contact">Contact Us</Link>
                       </li>
                       <li>
-                        <Link to="/service-one">Our Services</Link>
+                        <Link to="/services">Our Services</Link>
                       </li>
 
                       <li>
@@ -85,11 +79,11 @@ const FooterOne = () => {
                     <h5>Folllow Us:</h5>
                     <ul>
                       <li>
-                        <Link to="/">
+                        <a href="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB">
                           <FaFacebookF />
-                        </Link>
+                        </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link to="/">
                           <FaTwitter />
                         </Link>
@@ -103,7 +97,7 @@ const FooterOne = () => {
                         <Link to="/">
                           <FaPinterestP />
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                   {/* <div className="footer-newsletter mt-40">
@@ -136,7 +130,7 @@ const FooterOne = () => {
                 <div className="footer-menu">
                   <ul>
                     <li>
-                      <Link to="/">
+                      <Link to="/andrey-policy">
                         About Andrey's Pro Landscaping & Tree Service
                       </Link>
                     </li>
