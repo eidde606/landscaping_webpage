@@ -26,11 +26,16 @@ const HeaderTop = () => {
           </div>
           <div className="col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <div className="header-social text-center text-xl-end text-lg-end">
-              <a href="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB">
-                <FaFacebookF style={{ color: "skyblue" }} />
+              <a
+                href="https://www.facebook.com/profile.php?id=61553947325482&mibextid=gik2fB"
+                style={{
+                  fontSize: "24px", // Increase font size
+                  color: "skyblue",
+                  transition: "color 0.3s ease-in-out", // Add smooth transition
+                }}
+              >
+                <FaFacebookF />
               </a>
-
-              {/* <a href="instagram.com">Instagram</a> */}
             </div>
           </div>
         </div>
