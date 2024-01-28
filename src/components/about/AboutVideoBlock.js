@@ -32,7 +32,7 @@ const AboutVideoBlock = () => {
                 discovered the undoubtable source. the Lorem Ipsum comes from
                 sections.
               </p>
-              <Link to="/" className="l-btn mt-20">
+              <Link to="/contact" className="l-btn mt-20">
                 appointment
               </Link>
             </div>
