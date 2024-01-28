@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
 import LandPic from "../../assets/images/breadcrumb/landpic.jpg";
-import Yard from "../../assets/images/yard.jpg";
+import Yard from "../../assets/images/newyard.jpg";
 const HeroStyleOne = () => {
   const [isOpen, setOpen] = useState(false);
   return (

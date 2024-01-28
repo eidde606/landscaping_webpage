@@ -31,18 +31,22 @@ const ContactMap = () => {
       });
     };
 
-    const script = document.createElement("script");
-    script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDaUWR9-0jCFU_V8aMizOcC8rQBI3QgRqc`;
-    script.async = true;
-    document.body.appendChild(script);
-
-    script.onload = () => {
+    if (window.google && window.google.maps) {
       initMap();
-    };
+    } else {
+      const script = document.createElement("script");
+      script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyDaUWR9-0jCFU_V8aMizOcC8rQBI3QgRqc`;
+      script.async = true;
+      document.body.appendChild(script);
 
-    return () => {
-      document.body.removeChild(script);
-    };
+      script.onload = () => {
+        initMap();
+      };
+
+      return () => {
+        document.body.removeChild(script);
+      };
+    }
   }, []);
 
   return <div id="map" style={{ height: "400px", width: "100%" }}></div>;

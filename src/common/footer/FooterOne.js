@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import FooterBG from "../../assets/images/footer-1.png";
 
 const FooterOne = () => {
+  const currentYear = new Date().getFullYear();
   return (
     <>
       <footer>
@@ -118,7 +119,7 @@ const FooterOne = () => {
               <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                 <div className="copyright">
                   <p>
-                    © 2022{" "}
+                    © {currentYear} {""}
                     <Link to="/">
                       Andrey's Pro Landscaping & Tree Service, LLC
                     </Link>
