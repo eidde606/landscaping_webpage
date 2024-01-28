@@ -100,10 +100,19 @@ const ContactForm = () => {
                     Expanded Landscaping <br /> Services Fits All needs!
                   </h3>
                   <p>
-                    On the other hand, we denounce with righteous indignation
-                    and dislike men who are so beguiled and demoralized by the
-                    charms{" "}
+                    Celebrating more than two decades of excellence, our
+                    landscaping and tree services have been a beacon of quality
+                    and innovation. We bring a wealth of experience to every
+                    project, ensuring your outdoor spaces thrive with lush
+                    greenery and well-maintained trees. Our seasoned
+                    professionals are dedicated to transforming landscapes into
+                    captivating and sustainable environments. From intricate
+                    tree care to imaginative landscape designs, we take pride in
+                    our commitment to enhancing the natural beauty of your
+                    surroundings. Partner with us to experience the difference
+                    that over 20 years of expertise can make for your property.
                   </p>
+
                   <ul className="mt-40">
                     <li>
                       <FaHeadphones />
