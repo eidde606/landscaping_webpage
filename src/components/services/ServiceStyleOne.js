@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { v4 as uuidv4 } from "uuid";
 import Icon_flower from "../../assets/images/service/flower.png";
 import Icon_growing from "../../assets/images/service/growing.png";
@@ -110,9 +111,9 @@ const ServiceStyleOne = () => {
                   nihil impedit quo minus id quod maxime placeat omnis voluptas
                   assumenda est, omnis dolor repellendus.{" "}
                 </p>
-                <a href="/contact" className="l-btn">
+                <Link to="/contact" className="l-btn">
                   Appointment
-                </a>
+                </Link>
               </div>
             </div>
           </div>

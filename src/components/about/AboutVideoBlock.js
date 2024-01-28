@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FaPlay } from "react-icons/fa";
 import ModalVideo from "react-modal-video";
+import { Link } from "react-router-dom";
 import AboutBlockImg1 from "../../assets/images/hero/1.png";
 
 const AboutVideoBlock = () => {
@@ -31,9 +32,9 @@ const AboutVideoBlock = () => {
                 discovered the undoubtable source. the Lorem Ipsum comes from
                 sections.
               </p>
-              <a href="/contact" className="l-btn mt-20">
+              <Link to="/contact" className="l-btn mt-20">
                 appointment
-              </a>
+              </Link>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6">
               <div className="hero-popup-content">
