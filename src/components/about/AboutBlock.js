@@ -1,7 +1,7 @@
 import React from "react";
-import AboutBlockImg1 from "../../assets/images/about/about-large.jpg";
-import AboutBlockImg2 from "../../assets/images/about/about-small.jpg";
 import AndreyFace from "../../assets/images/andre.jpg";
+import Team2 from "../../assets/images/team2.jpg";
+import Team from "../../assets/images/teampic.jpg";
 
 const AboutBlock = () => {
   return (
@@ -11,9 +11,17 @@ const AboutBlock = () => {
           <div className="row d-flex align-items-center">
             <div className="col-xl-6 col-lg-6 col-md-6 pl-50 pr-50">
               <div className="about-img-style-2">
-                <img src={AboutBlockImg1} alt="" />
+                <img
+                  src={Team2}
+                  alt=""
+                  style={{ width: "500px", height: "600px" }}
+                />
                 <div className="about-small-img">
-                  <img src={AboutBlockImg2} alt="" />
+                  <img
+                    src={Team}
+                    alt=""
+                    style={{ width: "309px", height: "309px" }}
+                  />
                 </div>
                 <div className="about-experience">
                   <h2>20+</h2>
