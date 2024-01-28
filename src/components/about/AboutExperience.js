@@ -45,9 +45,7 @@ const AboutExperience = () => {
             <div className="col-xl-12">
               <div className="section-title text-center mb-70">
                 {/* <span>We Have 20 Years of Experience</span> */}
-                <h2>
-                  We Give Awesome Landscape <br /> Gardening Services
-                </h2>
+                <h2>Expert Landscape Gardening and Tree Services</h2>
               </div>
             </div>
           </div>

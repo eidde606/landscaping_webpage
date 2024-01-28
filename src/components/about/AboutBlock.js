@@ -1,7 +1,6 @@
 import React from "react";
 import AndreyFace from "../../assets/images/andre.jpg";
-import Team2 from "../../assets/images/team2.jpg";
-import Team from "../../assets/images/teampic.jpg";
+import Team from "../../assets/images/theTeam.jpg";
 
 const AboutBlock = () => {
   return (
@@ -12,16 +11,12 @@ const AboutBlock = () => {
             <div className="col-xl-6 col-lg-6 col-md-6 pl-50 pr-50">
               <div className="about-img-style-2">
                 <img
-                  src={Team2}
+                  src={Team}
                   alt=""
-                  style={{ width: "500px", height: "600px" }}
+                  style={{ maxWidth: "100%", height: "auto" }}
                 />
                 <div className="about-small-img">
-                  <img
-                    src={Team}
-                    alt=""
-                    style={{ width: "309px", height: "309px" }}
-                  />
+                  {/* <img src={AboutBlockImg2} alt="" /> */}
                 </div>
                 <div className="about-experience">
                   <h2>20+</h2>
