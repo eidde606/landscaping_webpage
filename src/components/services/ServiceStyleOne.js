@@ -107,10 +107,18 @@ const ServiceStyleOne = () => {
                   We are professional <span>Landscape & Gardening service</span>
                 </h3>
                 <p>
-                  Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                  nihil impedit quo minus id quod maxime placeat omnis voluptas
-                  assumenda est, omnis dolor repellendus.{" "}
+                  At Andrey's Pro Landscaping & Tree Service, we take pride in
+                  offering professional landscape and gardening services that go
+                  beyond expectations. Our dedicated team works with passion and
+                  expertise to transform outdoor spaces into stunning,
+                  sustainable environments. We believe in enhancing the natural
+                  beauty of your surroundings and providing tailored solutions
+                  to meet your unique needs. Whether it's intricate tree care or
+                  imaginative landscape designs, we bring over 20 years of
+                  experience to every project. Partner with us to experience
+                  excellence in landscaping and tree services.
                 </p>
+
                 <Link to="/contact" className="l-btn">
                   Appointment
                 </Link>
