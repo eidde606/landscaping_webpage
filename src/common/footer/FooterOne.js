@@ -120,10 +120,8 @@ const FooterOne = () => {
                 <div className="copyright">
                   <p>
                     © {currentYear} {""}
-                    <Link to="/">
-                      Andrey's Pro Landscaping & Tree Service, LLC
-                    </Link>
-                    . All rights reserved.
+                    Andrey's Pro Landscaping & Tree Service, LLC. All rights
+                    reserved.
                   </p>
                 </div>
               </div>
