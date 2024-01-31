@@ -1,6 +1,5 @@
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
-import { FaArrowRight } from "react-icons/fa";
 import { contactConfig } from "../../ContactConfig";
 
 import Quote_pic from "../../assets/images/quotepic.jpg";
@@ -62,11 +61,7 @@ const HomeOneBookAppointment = () => {
                   </div>
                   <div className="row">
                     <div className="col-xl-12">
-                      <input
-                        type="number"
-                        placeholder="Phone"
-                        name="user_phone"
-                      />
+                      <input type="tel" placeholder="Phone" name="user_phone" />
                       <textarea
                         placeholder="Write Message Here"
                         name="message"
@@ -75,7 +70,7 @@ const HomeOneBookAppointment = () => {
                   </div>
                   <button className="l-btn quote-btn" type="submit">
                     Send
-                    <FaArrowRight />
+                    {/* <FaArrowRight /> */}
                   </button>
                 </form>
               </div>

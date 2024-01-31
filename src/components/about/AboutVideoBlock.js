@@ -33,7 +33,7 @@ const AboutVideoBlock = () => {
                 sections.
               </p>
               <Link to="/contact" className="l-btn mt-20">
-                appointment
+                Get A Quote
               </Link>
             </div>
             <div className="col-xl-6 col-lg-6 col-md-6">

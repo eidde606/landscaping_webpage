@@ -120,7 +120,7 @@ const ServiceStyleOne = () => {
                 </p>
 
                 <Link to="/contact" className="l-btn">
-                  Appointment
+                  GET A QUOTE
                 </Link>
               </div>
             </div>

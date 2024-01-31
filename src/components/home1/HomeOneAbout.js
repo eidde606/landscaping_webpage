@@ -15,7 +15,7 @@ const HomeOneAbout = () => {
                 <h2>We Are Right Landscape And Gardening Experts Since 2000</h2>
               </div>
               <Link to="/contact" className="l-btn">
-                Appointment
+                GET A QUOTE
               </Link>
             </div>
           </div>
